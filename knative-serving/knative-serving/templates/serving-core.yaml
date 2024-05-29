@@ -303,7 +303,7 @@ metadata:
     knative.dev/example-checksum: "604cb513"
 data:
   scale-to-zero-grace-period: {{ .Values.autoscaler.config.scaleToZeroGracePeriod }}
-  _example: |
+ # _example: |
     ################################
     #                              #
     #    EXAMPLE CONFIGURATION     #
@@ -508,7 +508,7 @@ metadata:
   annotations:
     knative.dev/example-checksum: "cdabec96"
 data:
-  _example: |
+ # _example: |
     ################################
     #                              #
     #    EXAMPLE CONFIGURATION     #
@@ -646,7 +646,7 @@ data:
   # and substituted here.
   queueSidecarImage: {{ .Values.queueProxy.image }}
   #queueSidecarImage: gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:6cd0c234bfbf88ac75df5243c2f9213dcc9def610414c506d418f9388187b771
-  _example: |
+  #_example: |
     ################################
     #                              #
     #    EXAMPLE CONFIGURATION     #
@@ -724,7 +724,7 @@ metadata:
   annotations:
     knative.dev/example-checksum: "74c3fc6a"
 data:
-  _example: |
+  #_example: |
     ################################
     #                              #
     #    EXAMPLE CONFIGURATION     #
@@ -787,7 +787,7 @@ metadata:
   annotations:
     knative.dev/example-checksum: "2cf73688"
 data:
-  _example: |-
+  #_example: |-
     ################################
     #                              #
     #    EXAMPLE CONFIGURATION     #
@@ -923,7 +923,7 @@ metadata:
   annotations:
     knative.dev/example-checksum: "e6149382"
 data:
-  _example: |
+  # _example: |
     ################################
     #                              #
     #    EXAMPLE CONFIGURATION     #
@@ -1021,7 +1021,7 @@ metadata:
   annotations:
     knative.dev/example-checksum: "96896b00"
 data:
-  _example: |
+  #_example: |
     ################################
     #                              #
     #    EXAMPLE CONFIGURATION     #
@@ -1081,7 +1081,7 @@ metadata:
   annotations:
     knative.dev/example-checksum: "d9570453"
 data:
-  _example: |
+  #_example: |
     ################################
     #                              #
     #    EXAMPLE CONFIGURATION     #
@@ -1159,7 +1159,7 @@ metadata:
   annotations:
     knative.dev/example-checksum: "15954d34"
 data:
-  _example: |
+  #_example: |
     ################################
     #                              #
     #    EXAMPLE CONFIGURATION     #
@@ -1292,7 +1292,7 @@ metadata:
   annotations:
     knative.dev/example-checksum: "97c1d10b"
 data:
-  _example: |
+  # _example: |
     ################################
     #                              #
     #    EXAMPLE CONFIGURATION     #
@@ -1412,7 +1412,7 @@ metadata:
   annotations:
     knative.dev/example-checksum: "4002b4c2"
 data:
-  _example: |
+  #_example: |
     ################################
     #                              #
     #    EXAMPLE CONFIGURATION     #
